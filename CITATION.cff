@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these stands in your work, please cite them as below."
+title: "Stackable Conical Tube Stands"
+abstract: >-
+  Parametric, stackable single-tube stands for 15 mL and 50 mL conical
+  centrifuge tubes (or any conical tube from its dimensions), generated
+  by a Python script for FDM 3D printing.
+type: software
+authors:
+  - family-names: Iritani
+    given-names: Yu
+    affiliation: "Department of Chemistry, Graduate School of Science, The University of Osaka"
+    alias: yakamasiinen
+version: "1.0"
+date-released: "2026-10-12"
+license: MIT
+repository-code: "https://github.com/yakamasiinen/conical-tube-stand"
+keywords:
+  - 3d-printing
+  - lab-equipment
+  - centrifuge-tube
+  - conical-tube
+  - open-hardware

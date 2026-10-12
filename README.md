@@ -52,6 +52,9 @@ or from your own tube measurements: diameter, cone length and tip angle. One Pyt
 | `tube_stand.py` | Generator script (Python 3.8+, numpy; matplotlib only for optional text) |
 | `stl/tube_stand_50mL.stl` | Ready-to-print 50 mL stand (`--volume 50`) |
 | `stl/tube_stand_15mL.stl` | Ready-to-print 15 mL stand (`--volume 15`) |
+| `images/preview.png` | Rendered preview |
+| `LICENSE` | MIT License |
+| `CITATION.cff` | Citation metadata (used by GitHub's "Cite this repository") |
 
 | Model | Height | Base | Stack pitch | 5-stack height | Mass (PETG) |
 |---|---|---|---|---|---|
@@ -268,3 +271,33 @@ enclosure. ABS/ASA and PP warp too easily for the thin, wide flange.
 - **Stacking.** Stack empty stands only. Five or six per stack is a good everyday limit
   (5-stack: about 120–130 mm). Taller stacks tip over more easily, regardless of orientation.
 
+## Author
+
+Yu Iritani — Department of Chemistry, Graduate School of Science, The University of Osaka
+
+## Acknowledgements
+
+The overall layout was inspired by
+[UPDATE 08.26 stackable 50mL Falcon tube stand – Project OpenBenchTop](https://www.printables.com/model/1256006-update-0826-stackable-50ml-falcon-tube-stand-proje)
+by jojo ([@jojojo](https://www.printables.com/@jojojo)) on Printables. That design combines a
+tall collar, an inner seat cone and a flared skirt. No files or mesh data from that model are
+included in or used by this repository: all geometry here is generated from scratch by
+`tube_stand.py`.
+
+## License
+
+Released under the [MIT License](LICENSE). This covers the script, the STL files and the
+images. You may use, modify and share them, including in your own designs, provided the
+copyright notice is kept.
+
+"Falcon" is a trademark of Corning Incorporated. This project is not affiliated with or
+endorsed by Corning. "Falcon" is used here only to identify the tubes the default dimensions
+were taken from.
+
+## Citation
+
+If these stands are useful in your work, please cite this repository. GitHub's
+**"Cite this repository"** button (right sidebar) gives the reference in APA and BibTeX format.
+
+> Iritani, Y. (2026). *Stackable Conical Tube Stands* (version 1.0).
+> https://github.com/yakamasiinen/conical-tube-stand
